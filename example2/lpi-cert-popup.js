@@ -29,8 +29,6 @@
 		// the LPI checkbox
 		var checkbox = $('#'+ lpiCheckboxId);
 		
-		console.log(checkbox);
-		
 		// we need to set the relationship in order to use the overlay tool
 		checkbox.attr("rel", "#lpi-registration-overlay");
 		
